@@ -16,3 +16,8 @@ Make sure you have the AWS SAM CLI installed as well.
 sam build --beta-features
 sam deploy --guided --profile your_aws_profile_name
 ```
+
+## Destruction
+```
+sam delete --profile your_aws_profile_name
+```
