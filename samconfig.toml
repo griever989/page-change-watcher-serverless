@@ -1,0 +1,15 @@
+version=0.1
+[default.global.parameters]
+stack_name = "page-change-watcher"
+
+[default.deploy.parameters]
+stack_name = "page-change-watcher"
+region = "us-west-1"
+confirm_changeset = true
+
+[default.build.parameters]
+container_env_var = [
+    'PageChangeWatcherFunction.QUERY_URL=google.com',
+    'PageChangeWatcherFunction.QUERY_SELECTOR=input[value="Google Search"]'
+]
+no_beta_features = false
