@@ -17,6 +17,10 @@ Resources:
       Runtime: nodejs14.x
       Architectures:
         - x86_64
+      Environment:
+        Variables:
+          QUERY_URL: "https://google.com"
+          QUERY_SELECTOR: 'input[value="Google Search"]'
     Metadata: # Manage esbuild properties
       BuildMethod: esbuild
       BuildProperties:

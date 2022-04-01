@@ -8,8 +8,5 @@ region = "us-west-1"
 confirm_changeset = true
 
 [default.build.parameters]
-container_env_var = [
-    'PageChangeWatcherFunction.QUERY_URL=google.com',
-    'PageChangeWatcherFunction.QUERY_SELECTOR=input[value="Google Search"]'
-]
+container_env_var = []
 no_beta_features = false
