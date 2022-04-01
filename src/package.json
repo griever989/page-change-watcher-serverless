@@ -7,14 +7,17 @@
   "author": "griever989",
   "license": "MIT",
   "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "axios": "^0.26.1",
+    "node-html-parser": "^5.3.3"
   },
   "scripts": {
     "lint": "eslint '*.ts' --quiet --fix",
     "compile": "tsc"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.92",
-    "@types/node": "^17.0.13",
+    "@types/aws-lambda": "^8.10.93",
+    "@types/node": "^17.0.23",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "esbuild": "^0.14.14",
